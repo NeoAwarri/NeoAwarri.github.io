@@ -40,8 +40,8 @@
     margin-left: -180px;
     display: none;
 }
-.nervous.show.{
-    display:  block;
+.nervous.show{
+    display: block;
 }
 .cant-wait{
     position: absolute;
@@ -108,9 +108,7 @@ body.body-state4 .state4{display: block;}
 body.body-state5 .state5{display: block;}
 
 a{
-
 }
 
-.a.button{
-  
+.a.button{ 
 }
