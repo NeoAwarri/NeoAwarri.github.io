@@ -4,7 +4,8 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="icon" type="img/x-icon" href="img/me.ico">
 	<link rel="stylesheet" href="Aboutstyles.css">
 	<title>About Me</title>
@@ -12,34 +13,61 @@
 </head>
 
 <body>
-	<ul class="ulnavi">
-		<li class="navi"><a href="./FI/index.html">FI</a></li>
-		<li class="navi"><a href="./Contact.html">Contact</a></li>
-		<li class="navi"><a href="./index.html">Home Page</a></li>	
-		<p class="a">About</p>
+	<ul class="ulnavi shadow-lg">
+		<li class="navi p-2"><a href="#Contacts">Contact</a></li>
+		<li class="navi p-2"><a href="./index.html">Home Page</a></li>	
+		<p class="a p-2">About</p>
 	</ul>
 
-	<h1></h1>
-	<p class="b"><b>First Name:</b> Neo</p>
-	<p class="b"><b>Last Name:</b> Awaritefe</p>
+	<div class="container text-center">
+		<div class="row py-3">
+			<div class="col-md-3"></div>
+			<div class="col-md-3">
+			<p class="b fs-2 "> First Name: </p>
+			</div>
+			<div class="col-md-3">
+				<p class="b fs-2 text-light">Neo</p>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
 
-	<h2>Education</h2>
+		<div class="row py-3">
+			<div class="col-md-3"></div>
+			<div class="col-md-3">
+			<p class="b fs-2"> Last Name: </p>
+			</div>
+			<div class="col-md-3">
+				<p class="b fs-2 text-light">Awaritefe</p>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+
+
+
+
+	</div>
+	
+	
+	<div class="space"></div>
+
+	<h2 class="p-2 ">Education:</h2>
 
 	<ul>
 		<li><b>Basic Education, International School Vantaa, 2011-2017.</b></li>
 <br>
-		<li><b>Professional degree, Luksia, information and communication technology, 2023 - .</b></li>
+		<li><b>Professional degree, Luksia, information and communication technology, 2023 - 2026 .</b></li>
 		
 	</ul>
 	
-	<h2>Work Experience</h2>
+	<h2 class="p-2">Work Experience:</h2>
 	
 	<ul>
 		<li><b>Chitir Chicken Nummela,</b> 2020 - 2023.</li>
-		<li><b>Job content:</b> Delivery driver, cashier, mobile customer service</li>
+		<p class="text-white"><b>Job content:</b> Delivery driver, cashier, mobile phone customer service.</p>
 	</ul>
+	<div class="space"></div>
 
-	<h2>Languages</h2>
+	<h2 class="p-2">Languages:</h2>
 
 	<ul>
 		<li>English</li>
@@ -48,15 +76,69 @@
 		
 	</ul>
 	
-	<h2>Skills</h2>
+	<h2 class="p-2">Skills:</h2>
 	
 	<ul>
 		<li>Html</li>
 		<li>Css</li>
+		<li>JavaScript</li>
+		<li>Bootstrap</li>
 		<li>Photoshop</li>
 		<li>Video Editing</li>
 		<li>Class B Driving</li>
 	</ul>
+
+	<div class="space"></div>
+
+	<h2 class="p-2">My Projects:</h2>
+
+	<ul>
+		<p><a class="text-white" href="https://github.com/NeoAwarri/NeoAwarri.github.io">My Github</a></p>
+	</ul>
+	<div class="space"></div>
+	  <!-- footer -->
+      <footer id="contacts" class="bg-cover shadow-lg">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-lg-3 ms-auto py-5">
+                <p></p>
+                <div class="social-links">
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                  <a href="#"><i class="ri-instagram-fill"></i></a>
+                  <a href="#"><i class="ri-twitter-x-fill"></i></a>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex justify-content-center py-1">
+                <div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d832.4710339309601!2d24.072496739568265!3d60.24756427390904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dbf79be10ae27%3A0x81fd612772fee0cb!2sLuksia%2C%20L%C3%A4nsi-Uudenmaan%20koulutuskuntayhtym%C3%A4!5e0!3m2!1sen!2sfi!4v1715855273206!5m2!1sen!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-3 ms-auto py-5">
+                <h6 id="Contacts" class="footer-contacts fa-2x fa-solid">Contacts</h6>
+                <p class="mb-1">Neo.awaritefe@gmail.com</p>
+				<p class="mb-1">0403274040</p>
+                <p class="mb-0">Niittytie 4 C 32 03100 vihti</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- footer End -->
+    <script src="https://kit.fontawesome.com/5f4aa8c269.js" crossorigin="anonymous"></script>
+
+  
+
+
+		
+
+
+
+
+
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>

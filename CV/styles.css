@@ -1,8 +1,12 @@
 body {
-	background: url("img/Test2.png") no-repeat;
+	background: url("img/Test4.png") no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
 	
+}
+.space{
+	width: 100%;
+	height: 75px;
 }
 h1 {
   color: #ff1800;
@@ -10,6 +14,7 @@ h1 {
   font-family: Fantasy, Copperplate;
   font-size: 50px;
 }
+
 p.a {
 	text-align: left;
 	font-size: 34px;
@@ -25,7 +30,7 @@ p.a {
 }
 h3 {
   	text-align: center;
-  	font-size: 18px;
+  	font-size: 28px;
 	color: white;
 }
 img {
@@ -55,4 +60,34 @@ li a:hover {
 }
 .bigger { 
 	font-size:160%; 
+}
+/* footer */
+
+footer{
+    background-color: #161616;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.footer-top{
+    margin-bottom: 30px;
+}
+
+footer p{
+    color: rgba(238, 232, 232, 0.75);
+}
+
+footer .social-links a{
+    font-weight: normal;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.footer-bottom{
+
+    padding-top: 30px;
+    border-top: 1px solid #1e1e1e;
+}
+a:hover {
+	color: #ff1800;
 }
