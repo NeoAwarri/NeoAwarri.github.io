@@ -58,35 +58,12 @@ li a {
 li a:hover {
   background-color: #111;
 }
+h3{
+  font-family: "fantasy papyrus";
+  background-color: #111; width: 2000px;
+}
 .bigger { 
 	font-size:160%; 
-}
-/* footer */
-
-footer{
-    background-color: #161616;
-    padding-top: 150px;
-    padding-bottom: 30px;
-}
-
-.footer-top{
-    margin-bottom: 30px;
-}
-
-footer p{
-    color: rgba(238, 232, 232, 0.75);
-}
-
-footer .social-links a{
-    font-weight: normal;
-    font-size: 24px;
-    margin-left: 10px;
-}
-
-.footer-bottom{
-
-    padding-top: 30px;
-    border-top: 1px solid #1e1e1e;
 }
 a:hover {
 	color: #ff1800;
